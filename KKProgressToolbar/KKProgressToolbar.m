@@ -38,7 +38,7 @@
         self.statusLabel.textColor = [UIColor whiteColor];
         self.statusLabel.shadowColor = [UIColor blackColor];
         self.statusLabel.shadowOffset = CGSizeMake(0, -1);
-        self.statusLabel.textAlignment = UITextAlignmentCenter;
+        self.statusLabel.textAlignment = NSTextAlignmentCenter;
         
         self.progressBar = [[UIProgressView alloc] initWithFrame:CGRectMake(0, 25, 200, 10)];
         
